@@ -22,6 +22,7 @@ if (outputIndex !== -1 && args[outputIndex + 1]) {
   flags.output = args[outputIndex + 1];
 }
 
+
 // Get directory (first non-flag argument)
 const dir = args.find((a) => !a.startsWith("-")) || ".";
 const targetDir = path.resolve(dir);

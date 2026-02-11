@@ -1,6 +1,6 @@
 {
   "name": "hallucination-finder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find AI-hallucinated packages in your codebase. Scan imports that reference npm packages that don't actually exist.",
   "main": "src/index.js",
   "bin": {
@@ -21,10 +21,20 @@
     "copilot",
     "chatgpt",
     "claude",
-    "code-quality"
+    "code-quality",
+    "supply-chain",
+    "dependency-check"
   ],
   "author": "Bostigger",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bostigger/hallucination-finder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bostigger/hallucination-finder/issues"
+  },
+  "homepage": "https://github.com/Bostigger/hallucination-finder#readme",
   "dependencies": {
     "chalk": "^4.1.2",
     "glob": "^10.3.10",
