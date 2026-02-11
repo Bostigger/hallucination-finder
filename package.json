@@ -1,0 +1,33 @@
+{
+  "name": "hallucination-finder",
+  "version": "1.0.0",
+  "description": "Find AI-hallucinated packages in your codebase. Scan imports that reference npm packages that don't actually exist.",
+  "main": "src/index.js",
+  "bin": {
+    "hallucination-finder": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node bin/cli.js ."
+  },
+  "keywords": [
+    "ai",
+    "hallucination",
+    "vibe-coding",
+    "lint",
+    "audit",
+    "security",
+    "npm",
+    "packages",
+    "copilot",
+    "chatgpt",
+    "claude",
+    "code-quality"
+  ],
+  "author": "Bostigger",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "glob": "^10.3.10",
+    "ora": "^5.4.1"
+  }
+}
